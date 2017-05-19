@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "HouseholdAppliances.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "AppliancesSite.settings")
 
 application = get_wsgi_application()

@@ -25,7 +25,7 @@ SECRET_KEY = 'i@3nt3#mktg(yu9$8up+j8m06=7la!t91ng5_x0!=98)3=ph0y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['householdappliances.azurewebsites.net', '127.0.0.1']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'HouseholdAppliances.urls'
+ROOT_URLCONF = 'AppliancesSite.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'HouseholdAppliances.wsgi.application'
+WSGI_APPLICATION = 'AppliancesSite.wsgi.application'
 
 
 # Database
